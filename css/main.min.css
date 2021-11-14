@@ -1,0 +1,2 @@
+html{-webkit-box-sizing:border-box;box-sizing:border-box}*,*::after,*::before{-webkit-box-sizing:inherit;box-sizing:inherit}h1,h2,h3,h4,h5,h6,p{margin-top:0}img{display:block;height:auto;max-width:100%}.list{list-style:none;padding-left:0;margin:0}body{font-family:"Roboto", sans-serif;color:var(--main-font-color)}.link{text-decoration:none;color:inherit}.visually-hidden{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;border:0;clip:rect(0 0 0 0)}
+/*# sourceMappingURL=main.min.css.map */
