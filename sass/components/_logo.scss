@@ -1,0 +1,23 @@
+.link-logo{
+    display: block;
+    margin-left: 15px;
+    width: 60px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.link_logo--blue{
+    color: var(--accent-color);
+}
+
+.link_logo--dark{
+    color: var(--title-color);
+}

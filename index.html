@@ -9,23 +9,24 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map">
-    <link rel="stylesheet" href="./site/public/stylesheets/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <!-- header -->
     <header>
         <div class="container">
             <!-- logo -->
-            <a class="link-logo" href="./"> <span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
-            <nav class="mein-nav">
+            <a class="link-logo link" href="./"> <span class="link_logo--blue">Web</span><span class="link_logo--dark">Studio</span></a>
+            <div>
+                <nav class="mein-nav">
                 <ul class="nav-items list">
                     <li class="link"><a class="link nav-item" href="">Контакты</a></li>
                     <li class="link"><a class="link nav-item" href="./portfolio.html">Портфолио</a></li>
                     <li class="link"><a class="link nav-item" href="">Контакты</a></li>
                 </ul>
-            </nav>
+                </nav>
             <!-- contact -->
-            <ul class="contact-items list">
+                <ul class="contact-items list">
                 <li class="contact-item link">
                     <a class="link" href="mailto:info@devstudio.com">
                         <svg class="contact-icon" width="16" height="10">
@@ -42,7 +43,17 @@
                         +38 096 111 11 11
                     </a>
                 </li>
-            </ul>
+                </ul>
+                <button type="button" class="header_button">
+                    <svg 
+                    width="40"
+                    height="40"
+                    aria-label="Переключатель мобильного меню">
+                        <use class="button_clouse" href="./images/svg/all.svg#icon-header_mobileclose--clouse"></use>
+                        <use class="button_menu" href="./images/svg/symbol-defs.svg#icon-header-button__menu"></use>
+                    </svg>
+                </button>
+            </div>
         </div>
     </header>
     <!-- main -->

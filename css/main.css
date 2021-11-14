@@ -1,3 +1,18 @@
+:root {
+  --main-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196F3;
+  --white-color: #FFFFFF;
+  --white-bgc: #FFFFFF;
+  --dark-bgc: #2F303A;
+  --main-section-bgc: #E5E5E5;
+  --second-section-bgc: #F5F4FA;
+  --accent-bgc: #2196F3;
+  --mein-font-famely-Roboto: "Roboto";
+  --mein-font-famely-Raleway: "Raleway";
+  --grid-item: 4;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -51,5 +66,80 @@ body {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.link-logo {
+  display: block;
+  margin-left: 15px;
+  width: 60px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.link_logo--blue {
+  color: var(--accent-color);
+}
+
+.link_logo--dark {
+  color: var(--title-color);
+}
+
+.header_button {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: #fff;
+}
+
+@media screen and (min-width: 480px) {
+  .header_button {
+    display: none;
+  }
+}
+
+.header_button:hover,
+.header_button:focus {
+  color: var(--accent-color);
+}
+
+.button_clouse,
+.button_menu {
+  width: 24px;
+  height: 16px;
+  fill: currentColor;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,22 @@
+.header_button{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border:none;
+    background-color: #fff;
+    @media screen and(min-width:480px){
+        display: none;
+    }
+}
+
+.header_button:hover,
+.header_button:focus{
+    color: var(--accent-color);
+}
+
+.button_clouse,
+.button_menu{
+    width: 24px;
+    height: 16px;
+    fill: currentColor;
+}
